@@ -1,0 +1,5 @@
+print('8ºFaça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas por dia. Calcule e mostre o total do seu salário no referido mês.')
+ph = float(input('Quanto você ganha por hora? R$'))
+ht = float(input('Quantas horas você trabalha?'))
+print('Você trabalhou {}h por dia nesse mês!'.format(ht))
+print('Você irá receber {}$ esse mês.'.format(ph*ht*30))
